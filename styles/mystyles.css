@@ -1,0 +1,99 @@
+/*Seunghyun Bang, Dec 5, 2021*/
+.mystyletitle {
+    text-align: center;
+}
+
+.mystyletitle1 {
+  text-align: center;
+  font-style: italic;
+}
+
+.header {
+  top: 220
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(240, 255, 246);
+  animation: transitionIn 0.75s;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.footercolor {
+  background-color:white;
+}
+
+.quotes {
+  font-style:italic;
+  text-align:center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navigationbar {
+  background-color:gray;
+  overflow: hidden;
+  border: solid 2px black;
+  }
+  
+.navigationbar a {
+  float:left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  
+.navigationbar a:hover {
+  background-color: black;
+  color: white;
+  }
+
+p::first-letter {
+  font-size: 250%;
+  color: green;
+}
+
+.copyright {
+  font-style: italic
+}
+
+.footerlink {
+  color: white;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+      opacity: 1;
+      transform: rotateX(0);
+  }
+}
+
+.caption {
+  font-style: italic;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,65 @@
+.header {
+    color:black;
+    font-size:large;
+    font-weight:bold;
+}
+
+.tableaubody {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  
+.box {
+    position: relative;
+}
+
+.grid-item {
+    background-color: gray;
+    border: solid 1px black;
+    text-align: center;
+}
+      
+.footer {
+    grid-row: 4;
+    grid-column: 1 / span 3;
+    color: white;
+    margin: 0px;
+    position: relative;
+} 
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: cornsilk;
+  }
+
+.navigationbar {
+    background-color:gray;
+    overflow: hidden;
+    border: solid 2px black;
+    position: relative;
+    }
+    
+.navigationbar a {
+    float:left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    
+.navigationbar a:hover {
+    background-color: black;
+    color: white;
+    }
+
+.grid {
+    border-radius: 20px;
+}
+
+.tableaucaption {
+    background-color:gray;
+    overflow: hidden;
+    border: solid 2px black;
+    color: white;
+  }
